@@ -12,7 +12,7 @@ const Search = props => {
             value={inputValue}
             onChange={e => setInputValue(e.target.value)}
             type="text"
-            placeholder="请输入要查询的IP或域名"
+            placeholder="请输入要查询的IP"
             minLength="7"
             maxLength="15"
             size="15"
