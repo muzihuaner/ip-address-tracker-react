@@ -6,7 +6,7 @@ const Header = props => {
 
    return (
       <header className="header">
-         <h1>IP Address Tracker</h1>
+         <h1>IP地址查询</h1>
          <Search handleSubmit={props.handleSubmit} />
          <Info
             ip={loading ? 'loading...' : props.ip}
